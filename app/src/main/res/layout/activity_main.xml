@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="30dp"
+    android:background="@drawable/background"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/myform"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My Form"
+        android:layout_marginBottom="40dp"
+        android:textColor="@color/black"
+        android:textSize="36dp" />
+
+    <EditText
+        android:id="@+id/txtFname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="First Name"
+        android:padding="15dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/input_text_coner"
+        android:textSize="28dp" />
+
+    <EditText
+        android:id="@+id/txtLname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:padding="15dp"
+        android:background="@drawable/input_text_coner"
+        android:hint="Last Name"
+        android:textSize="28dp" />
+
+    <Button
+        android:id="@+id/btnSend"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="28dp"
+        android:padding="10dp"
+        android:text="Send" />
+
+
+</LinearLayout>
